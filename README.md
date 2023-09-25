@@ -5,7 +5,7 @@ A repository documenting my Python learning journey during college.
 ## Log日志
 
 ### 2023-09-25
-Today, I created this repository and compiled the Python code from the past few days.
+Today, I created this repository and compiled the Python code from the past few days.  
 今天，我创建了这个仓库，将前几天的Python代码整理了进来。  
 #### [tkGUI-guessNum.py：](/tkGUI-guessNum.py)  
 This is a code from my classmate, and he asked me to help him modify the code. It was both his and my first time trying to write a GUI in Python. His problem is that the GUI window is created, but the command line is still used to input & print content.  
@@ -23,7 +23,7 @@ This is a code from my classmate, and he asked me to help him modify the code. I
 
 
 #### [guessName.py：](/guessName.py)
-A simple exercise, mainly practicing some basic equality tests.
+A simple exercise, mainly practicing some basic equality tests.  
 一个简单的练习，主要练习一些基础的相等性检验。  
 
     # NOTE: Use the double equal sign (==) to compare for equality
@@ -31,5 +31,5 @@ A simple exercise, mainly practicing some basic equality tests.
     # 注意：使用双等号（==）来比较相等性
 
 #### [print(0).py：](/print(0).py)
-Simple exercises on the logic of the inequality sign (!=).
+Simple exercises on the logic of the inequality sign (!=).  
 简单的关于不等号(!=)逻辑的练习。

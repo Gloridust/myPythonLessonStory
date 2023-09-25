@@ -11,11 +11,11 @@ root.geometry("300x150")
 
 # 创建标签，用于显示游戏标题
 title_label = tk.Label(root, text="猜数字小游戏")
-title_label.pack()
+title_label.pack()  #将标签放置到主窗口中，使其在默认位置垂直堆叠在其他GUI元素之上
 
 # 创建输入框，用于接收用户输入
 input_entry = tk.Entry(root)
-input_entry.pack()
+input_entry.pack()  #将输入框放置到主窗口中，使其在默认位置垂直堆叠在其他GUI元素之上
 
 # 创建按钮，用于提交用户的猜测
 submit_button = tk.Button(root, text="提交", command=lambda: check_guess())

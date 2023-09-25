@@ -2,7 +2,12 @@
 A repository documenting my Python learning journey during college.  
 一个记录我大学期间Python学习历程的仓库.
 
-## Log日志
+## Summarize 学习总结
+1. When you encounter a problem you don’t understand, you can first ask ChatGPT to try to solve it; after it gives the code, you can ask it to comment on the code and ask what a certain line of code means. This will greatly improve your independent learning efficiency. For details, please refer to [this article](https://gloridust.xyz/%E6%8A%80%E6%9C%AF/2023/08/24/studywithgpt.html) in my blog.  
+遇到不懂的问题时，可以先询问ChatGPT来尝试解决；它给出代码后，你可以要求它注释代码，并且询问某一行代码什么意思。这样会使你的自主学习效率大大提升。具体可以参考我博客里的[这篇文章](https://gloridust.xyz/%E6%8A%80%E6%9C%AF/2023/08/24/studywithgpt.html)。  
+
+
+## Log 日志
 
 ### 2023-09-25
 Today, I created this repository and compiled the Python code from the past few days.  

@@ -9,6 +9,12 @@ A repository documenting my Python learning journey during college.
 
 ## Log 日志
 
+### 2023-10-04
+#### [getInt.py](/getInt.py)
+This simple Python program allows the user to enter an integer up to three digits and then extract and print out the hundredth digit of that integer. If the user input does not meet the requirements, the program will give corresponding prompts.  
+这个简单的 Python 程序允许用户输入一个三位以上的整数，然后提取并打印出该整数的百位以上的数字。如果用户输入不符合要求，程序将给出相应的提示。
+
+
 ### 2023-09-25
 Today, I created this repository and compiled the Python code from the past few days.  
 今天，我创建了这个仓库，将前几天的Python代码整理了进来。  

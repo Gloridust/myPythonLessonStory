@@ -1,11 +1,15 @@
 import math
 
-x1 = float(input("请输入第一个点的 x 坐标: "))
-y1 = float(input("请输入第一个点的 y 坐标: "))
+# 输入已知的两边长度和夹角（以度为单位）
+a = float(input("请输入第一边的长度: "))
+b = float(input("请输入第二边的长度: "))
+angle_degrees = float(input("请输入两边之间的夹角（度）: "))
 
-x2 = float(input("请输入第二个点的 x 坐标: "))
-y2 = float(input("请输入第二个点的 y 坐标: "))
+# 将夹角从度转换为弧度
+angle_radians = math.radians(angle_degrees)
 
-mdistance = abs(x1 - x2) + abs(y1 - y2)
+# 使用余弦定理计算第三边的长度
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(angle_radians))
 
-print("两点之间的曼哈顿距离为:", mdistance)
+# 输出第三边的长度
+print("第三边的长度为:", c)

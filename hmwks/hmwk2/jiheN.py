@@ -15,5 +15,4 @@ def geometric_mean(nums):
 
 # 调用函数计算几何平均数
 result = geometric_mean(nums)
-
-print(f"输入数据的几何平均数是: {result}")
+print("几何平均数为:",result)

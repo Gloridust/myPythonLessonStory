@@ -4,7 +4,7 @@ i = 0
 while i < len(list):
     for j in range(i+1, len(list)):
         if list[j] < list[i]:
-            list[i], list[j] = list[j], list[i]  # 这里的代码看起来像是想交换两个元素的位置
+            list[i], list[j] = list[j], list[i]
     i += 1
 
 print(list)
